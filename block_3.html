@@ -1,0 +1,98 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Helvetica&display=swap">
+<p class="text-3"></p>
+    <div class="block-3" id="block-3">
+           <div class="child-3">
+                <img src="image-1.png" class="asset-1" alt="">
+                <div class="child-4">
+                    <p class="t-3"></p>
+                    <p class="t-4"></p>
+                </div>
+           </div>
+           <div class="child-30"> <!--style="margin-left: 5%;"-->
+            <img src="image-2.png" class="asset-1">
+            <div class="child-4">
+                <p class="t-3"></p>
+                <p class="t-4"></p>
+            </div>
+       </div>
+       <div class="child-3">
+        <img class="asset-1" src="image-3.png">
+        <div class="child-4">
+            <p class="t-3"></p>
+            <p class="t-4"></p>
+        </div>
+   </div>
+   <div class="child-30"> <!--style="margin-left: 5%;"-->
+    <img class="asset-1" src="image-4.png">
+    <div class="child-4">
+        <p class="t-3"></p>
+        <p class="t-4"></p>
+    </div>
+</div>
+    </div>
+
+
+
+<style>
+ body {
+            font-family: 'Helvetica', sans-serif;
+            /* Используем подключенный шрифт для всего текста на странице */
+        }
+.text-3{
+        font-size: 60px;
+        margin-left: 5%;
+        width: 70%;
+        font-weight: 100;
+        color: blue;
+    }
+
+    .block-3{
+        width: 90%;
+        margin-left: 5%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .child-3, .child-30{
+        width: 45%;
+        height: auto;/*
+        * Created with https://www.css-gradient.com
+        * Gradient link: https://www.css-gradient.com/?c1=bbe15d&c2=e6d9fc&gt=l&gd=dtl
+        */
+        border: solid 0.5px rgb(221, 221, 221);
+        border-radius: 25px;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        
+        background-color: #f4e8ff;
+    }
+        
+    .asset-1{
+        width: 100px;
+        height: auto;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .child-4{
+        width: 90%;
+        height: auto;
+        margin-left: 30px;
+    }
+    .t-3{
+        color: rgb(84, 87, 128);
+        font-size: 23px;
+        font-weight: bold;
+        width: 90%;
+    }
+    
+    .t-4{
+        color: rgb(104, 104, 141);
+        font-size: 20px;
+        font-weight: 100;
+        width: 90%;
+    }
+    .child-30{
+        margin-left: 5%;
+    }
+
+</style>
